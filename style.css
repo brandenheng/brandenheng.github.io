@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0B080D;
+    color: white;
+}
+
+header {
+    background: #0B080D;
+    color: white;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    margin: 0 0 1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #0B080D;
+    font-size: 0.9rem;
+}
+
+#gamesPreview .carousel-inner,
+#gamesPreview .carousel-item {
+  height: 500px;
+}
+
+#gamesPreview .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+#hero-section {
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
